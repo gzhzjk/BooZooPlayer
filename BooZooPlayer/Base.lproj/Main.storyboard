@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--Recomandation-->
+        <scene sceneID="hNz-n2-bh7">
+            <objects>
+                <viewController id="9pv-A4-QxB" userLabel="Recomandation" customClass="FirstViewController" customModule="BooZooPlayer" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
+                        <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5gd-Qw-yNE">
+                                <rect key="frame" x="-1" y="22" width="1025" height="44"/>
+                                <items>
+                                    <barButtonItem width="571" style="plain" systemItem="fixedSpace" id="F1n-bV-BX7"/>
+                                    <barButtonItem title="What to watch" style="plain" id="eBZ-bt-p6N">
+                                        <inset key="imageInsets" minX="100" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <textField key="customView" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="ZEm-gb-kby">
+                                            <rect key="frame" x="587" y="7" width="268" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits"/>
+                                        </textField>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="search" id="2rn-JJ-YeR"/>
+                                </items>
+                                <color key="tintColor" red="0.3056381105" green="0.46851549199999998" blue="0.47737136990000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome Mr. Messi" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Oe-eU-rlV">
+                                <rect key="frame" x="896" y="35" width="126" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                                <color key="textColor" red="0.3056381105" green="0.46851549199999998" blue="0.47737136990000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.48263346159999998" green="0.89209382879999999" blue="0.99019491790000003" alpha="0.81999999999999995" colorSpace="calibratedRGB"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="line.tiff" translatesAutoresizingMaskIntoConstraints="NO" id="vUq-mP-C1n">
+                                <rect key="frame" x="-1" y="59" width="1025" height="12"/>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" placeholderIntrinsicWidth="1029" placeholderIntrinsicHeight="732" scrollEnabled="NO" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mK6-hk-wGd">
+                                <rect key="frame" x="0.0" y="66" width="1029" height="732"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="barstarter.tiff" translatesAutoresizingMaskIntoConstraints="NO" id="7Mr-qQ-Gia">
+                                        <rect key="frame" x="8" y="4" width="5" height="14"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Recommendations" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IOE-1H-Mve">
+                                        <rect key="frame" x="18" y="2" width="126" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" red="0.30563811048578832" green="0.46851549202569853" blue="0.47737136994949492" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="l1.tiff" translatesAutoresizingMaskIntoConstraints="NO" id="iZd-hk-cdX">
+                                        <rect key="frame" x="6" y="22" width="500" height="305"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CPa-Vf-8nT">
+                                        <rect key="frame" x="99" y="255" width="342" height="68"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <string key="text">Alice, a 25-year-old woman who comes from Palmas to São Paulo to receive a small inheritance from her father. Upon arriving in São Paulo, Alice meets a new world, where she makes new friends, living new experiences that will cause decisive changes in her life. Alice sinks into the excitement of the cosmopolitan and cultural landscape of the city of São Paulo.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Alice_HBO_Series.png" translatesAutoresizingMaskIntoConstraints="NO" id="xgq-MS-2c5">
+                                        <rect key="frame" x="9" y="24" width="492" height="234"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Alice" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wAN-nG-3nq">
+                                        <rect key="frame" x="17" y="266" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Watched: 3961" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J4G-dL-Pbx">
+                                        <rect key="frame" x="18" y="306" width="85" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                        <color key="textColor" red="0.3056381105" green="0.46851549199999998" blue="0.47737136990000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="l1.tiff" translatesAutoresizingMaskIntoConstraints="NO" id="isf-I9-6h5">
+                                        <rect key="frame" x="7" y="339" width="500" height="305"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5zH-61-V12">
+                                        <rect key="frame" x="100" y="572" width="342" height="68"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <mutableString key="text">It features Lucas, a young man in Brazil who takes a trip to Morocco and falls in love with Jade, a Muslim woman who grew up in Rio de Janeiro and can’t find her place in her family’s religious traditions. Jade and Lucas fall in love at first sight but fate tears them apart, the two end up moving on with their lives. Twenty years later they unexpectedly reunite, but each with a family of their own. While the two struggle with their feelings they also discover that Lucas was cloned and Leo, the carefree 20-year-old clone, also falls in love with Jade. Now, Jade must decide between the two versions of the man she loves. </mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="O-Clone-minhas-telenovelas-23846972-700-400.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hb6-Ws-jgr">
+                                        <rect key="frame" x="10" y="341" width="492" height="234"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="O Clone" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PBf-lj-GFu">
+                                        <rect key="frame" x="18" y="583" width="74" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Watched: 3961" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ncG-VV-3aX">
+                                        <rect key="frame" x="19" y="623" width="85" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                        <color key="textColor" red="0.3056381105" green="0.46851549199999998" blue="0.47737136990000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="l1.tiff" translatesAutoresizingMaskIntoConstraints="NO" id="DSz-UM-OGC">
+                                        <rect key="frame" x="519" y="24" width="500" height="145"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bigoradabella.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="r2U-v3-poG">
+                                        <rect key="frame" x="519" y="24" width="185" height="145"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Watched: 3961" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="guI-Rd-w3f">
+                                        <rect key="frame" x="922" y="145" width="85" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                        <color key="textColor" red="0.3056381105" green="0.46851549199999998" blue="0.47737136990000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mi Gorda Bella" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kqu-L0-OwV">
+                                        <rect key="frame" x="717" y="35" width="125" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MFo-YU-9Yn">
+                                        <rect key="frame" x="712" y="53" width="281" height="91"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <mutableString key="text">This Venezuelan telenovela features Valentina, an overweight girl who after the death of her mother is sent to live with her uncle and cousins. Under the roof of the Villanueva household she finds many enemies but also her cousin Orestes, who she has loved since she was a little girl. Despite the obstacles and prejudices, the two fall in love but Valentina is deceived to believe Orestes has been unfaithful. Valentina immediately goes to Spain where she will uncover the truth about her mother’s death and a plot that she will only unravel if she returns unrecognizable to face her enemies.</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="l1.tiff" translatesAutoresizingMaskIntoConstraints="NO" id="TJc-8l-n5S">
+                                        <rect key="frame" x="519" y="182" width="500" height="145"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="La-Usurpadora-la-usurpadora-8839299-600-480.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="YtG-fK-eka">
+                                        <rect key="frame" x="519" y="182" width="185" height="145"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Watched: 3961" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kY9-6X-2bz">
+                                        <rect key="frame" x="922" y="303" width="85" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                        <color key="textColor" red="0.3056381105" green="0.46851549199999998" blue="0.47737136990000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="La Usurpadora" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lHG-Nb-IIj">
+                                        <rect key="frame" x="717" y="193" width="125" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mz5-Cb-xw2">
+                                        <rect key="frame" x="712" y="211" width="281" height="91"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <string key="text">This hugely popular Mexican version is based on the Venezuelan telenovela of the same name. In it, twins Paulina and Paola are separated at birth. Paulina grows up in humble surroundings while Paola turns evil and marries a rich man. During a chance encounter Paola forces Paulina to trade places with her so she can travel the world with her lover. Her plot is soon discovered and Paulina, who has fallen in love with Paola’s husband, faces the consequences.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="l1.tiff" translatesAutoresizingMaskIntoConstraints="NO" id="Zgj-uJ-Adu">
+                                        <rect key="frame" x="519" y="341" width="500" height="145"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Las-Juanas.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="wod-l1-MOk">
+                                        <rect key="frame" x="519" y="341" width="185" height="145"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Watched: 3961" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="upR-Fn-fGJ">
+                                        <rect key="frame" x="922" y="462" width="85" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                        <color key="textColor" red="0.3056381105" green="0.46851549199999998" blue="0.47737136990000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Las Juanas" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RmW-iP-35B">
+                                        <rect key="frame" x="717" y="352" width="125" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jTV-Bp-52W">
+                                        <rect key="frame" x="712" y="370" width="281" height="91"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <string key="text">The show mixes magic realism with life in the Caribbean. It follows the lives of five women who discover they are all daughters of a man named Calixto, a wealthy man who lives in Corozal and has a family of his own. The search for the five sisters and each one’s distinct personality and upbringing makes this original show a great option for U.S. TV.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="l1.tiff" translatesAutoresizingMaskIntoConstraints="NO" id="u12-pi-GVs">
+                                        <rect key="frame" x="519" y="498" width="500" height="145"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="d_nde_est_elisa.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="OIc-pQ-YIh">
+                                        <rect key="frame" x="519" y="498" width="185" height="145"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Watched: 3961" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uLJ-TY-xiP">
+                                        <rect key="frame" x="922" y="619" width="85" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                        <color key="textColor" red="0.3056381105" green="0.46851549199999998" blue="0.47737136990000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="¿Dónde Está Elisa?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cW9-pD-fes">
+                                        <rect key="frame" x="717" y="509" width="125" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e0G-DG-CSO">
+                                        <rect key="frame" x="712" y="527" width="281" height="91"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <string key="text">The Chilean telenovela revolves around the disappearance of Elisa, the teenage daughter of the wealthy Dominguez family. After her disappearance and suspected kidnapping, family secrets start to be revealed. Tensions grow around family and friends as everyone becomes suspect and the mystery of Elisa’s disappearance becomes more and more complicated. </string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G1V-Fd-K3e">
+                                        <rect key="frame" x="442" y="593" width="79" height="36"/>
+                                        <state key="normal" title="B1" image="Play-50.png"/>
+                                        <connections>
+                                            <action selector="Left2PlayStart:" destination="9pv-A4-QxB" eventType="touchUpInside" id="Oqn-Ti-Htz"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="db8-A5-FfO">
+                                        <rect key="frame" x="442" y="278" width="79" height="36"/>
+                                        <state key="normal" title="B1" image="Play-50.png"/>
+                                        <connections>
+                                            <action selector="Left1PlayStart:" destination="9pv-A4-QxB" eventType="touchUpInside" id="EE6-9v-x1Y"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bring Home to Your Screen" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z2l-oL-FTl">
+                                <rect key="frame" x="163" y="42" width="229" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <color key="textColor" red="0.3056381105" green="0.46851549199999998" blue="0.47737136990000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="title.tiff" translatesAutoresizingMaskIntoConstraints="NO" id="49U-7Y-2uO">
+                                <rect key="frame" x="1" y="31" width="109" height="30"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Recommendation" selectedImage="Popular Topic Filled-50.png" id="acW-dT-cKf"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="Left1Play" destination="db8-A5-FfO" id="bVG-SW-DQd"/>
+                        <outlet property="Left2Play" destination="G1V-Fd-K3e" id="rQa-mX-l4w"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="657" y="-320"/>
+        </scene>
+        <!--Netflix-->
+        <scene sceneID="wg7-f3-ORb">
+            <objects>
+                <viewController title="Netflix" id="8rJ-Kc-sve" customClass="SecondViewController" customModule="BooZooPlayer" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
+                        <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wz8-iS-PxO">
+                                <rect key="frame" x="-1" y="20" width="1025" height="44"/>
+                                <items>
+                                    <barButtonItem width="571" style="plain" systemItem="fixedSpace" id="gWx-JB-w0G"/>
+                                    <barButtonItem title="What to watch" style="plain" id="Ne5-m8-8VU">
+                                        <inset key="imageInsets" minX="100" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <textField key="customView" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="EIa-Td-LR0">
+                                            <rect key="frame" x="587" y="7" width="268" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits"/>
+                                        </textField>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="search" id="djJ-bd-FxJ"/>
+                                </items>
+                                <color key="tintColor" red="0.3056381105" green="0.46851549199999998" blue="0.47737136990000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bring Home to Your Screen" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5DW-Bg-rhw">
+                                <rect key="frame" x="163" y="41" width="229" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <color key="textColor" red="0.3056381105" green="0.46851549199999998" blue="0.47737136990000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="line.tiff" translatesAutoresizingMaskIntoConstraints="NO" id="EDl-aR-Pz7">
+                                <rect key="frame" x="-368" y="59" width="1392" height="12"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="title.tiff" translatesAutoresizingMaskIntoConstraints="NO" id="EQW-pi-KKK">
+                                <rect key="frame" x="1" y="30" width="109" height="30"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="barstarter.tiff" translatesAutoresizingMaskIntoConstraints="NO" id="OFB-7u-hVk">
+                                <rect key="frame" x="7" y="69" width="5" height="14"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Netflix" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QvD-jh-Z86">
+                                <rect key="frame" x="17" y="67" width="126" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.3056381105" green="0.46851549199999998" blue="0.47737136990000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="l1.tiff" translatesAutoresizingMaskIntoConstraints="NO" id="Jsv-KB-eXm">
+                                <rect key="frame" x="5" y="85" width="500" height="305"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ahH-o8-cg6">
+                                <rect key="frame" x="143" y="318" width="297" height="68"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Based on a true story, this moving film follows a young boy who must choose between enlisting in the Salvadoran army and joining a band of guerrillas. Set during the civil war of the 80s, it’s a peek into the lasting legacy that U.S. intervention has had in Central America.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="N_IV.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="70g-pA-dyP">
+                                <rect key="frame" x="8" y="87" width="492" height="234"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Innocent Voices" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HvE-vz-fSr">
+                                <rect key="frame" x="16" y="329" width="134" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Watched: 3961" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zgj-bw-YZ6">
+                                <rect key="frame" x="17" y="369" width="85" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" red="0.3056381105" green="0.46851549199999998" blue="0.47737136990000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SfD-tO-hp7">
+                                <rect key="frame" x="440" y="341" width="79" height="36"/>
+                                <state key="normal" title="B1" image="Play-50.png"/>
+                                <connections>
+                                    <action selector="Left1PlayStart:" destination="9pv-A4-QxB" eventType="touchUpInside" id="oti-rC-lRN"/>
+                                    <action selector="Top1PlayerStart:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="aCD-AD-jih"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="l1.tiff" translatesAutoresizingMaskIntoConstraints="NO" id="xYE-8N-sOY">
+                                <rect key="frame" x="519" y="85" width="500" height="305"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zW0-p0-Ith">
+                                <rect key="frame" x="612" y="342" width="342" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">The rise and colossal fall of the New York Cosmos, the team that brought Brazilian soccer superstar Pelé to America, as seen against the backdrop of New York in the 1970s.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="N_bele.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Gfc-QI-tR3">
+                                <rect key="frame" x="522" y="87" width="492" height="234"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Once in a Lifetime: The Extraordinary Story of the New York Cosmos" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4je-jI-Y2x">
+                                <rect key="frame" x="530" y="329" width="424" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Watched: 3961" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QQB-Rk-R9x">
+                                <rect key="frame" x="531" y="369" width="85" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" red="0.3056381105" green="0.46851549199999998" blue="0.47737136990000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fzs-q7-zst">
+                                <rect key="frame" x="955" y="341" width="79" height="36"/>
+                                <state key="normal" title="B1" image="Play-50.png"/>
+                                <connections>
+                                    <action selector="Left1PlayStart:" destination="9pv-A4-QxB" eventType="touchUpInside" id="Zcr-7h-XAz"/>
+                                    <action selector="Top2PlayerStart:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="3MR-HW-fP0"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="l1.tiff" translatesAutoresizingMaskIntoConstraints="NO" id="wHG-lG-WP2">
+                                <rect key="frame" x="8" y="400" width="241" height="146"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="N_City of God.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="fzZ-9c-pUW">
+                                <rect key="frame" x="9" y="400" width="238" height="114"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="City of God" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bPg-o7-D3Q">
+                                <rect key="frame" x="15" y="518" width="101" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Watched: 3961" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KLC-o3-Zf3">
+                                <rect key="frame" x="159" y="526" width="85" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" red="0.3056381105" green="0.46851549199999998" blue="0.47737136990000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="l1.tiff" translatesAutoresizingMaskIntoConstraints="NO" id="0Xb-uW-sUR">
+                                <rect key="frame" x="264" y="400" width="241" height="146"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="N_Elite Squad.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="0d7-FH-Tdh">
+                                <rect key="frame" x="265" y="400" width="238" height="114"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Elite Squad" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m9U-2e-LvA">
+                                <rect key="frame" x="271" y="518" width="101" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Watched: 3961" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kBi-Ra-n6g">
+                                <rect key="frame" x="423" y="526" width="85" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" red="0.3056381105" green="0.46851549199999998" blue="0.47737136990000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="l1.tiff" translatesAutoresizingMaskIntoConstraints="NO" id="xTl-qJ-X81">
+                                <rect key="frame" x="9" y="559" width="241" height="146"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="N_Havana Motor Club.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ZGG-N2-Pub">
+                                <rect key="frame" x="10" y="559" width="238" height="114"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Havana Moter Club" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kme-dH-AFE">
+                                <rect key="frame" x="16" y="677" width="157" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Watched: 3961" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NeL-y1-1E9">
+                                <rect key="frame" x="160" y="685" width="85" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" red="0.3056381105" green="0.46851549199999998" blue="0.47737136990000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="l1.tiff" translatesAutoresizingMaskIntoConstraints="NO" id="77R-Pa-a97">
+                                <rect key="frame" x="265" y="559" width="241" height="146"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="N_la-camioneta_2.png" translatesAutoresizingMaskIntoConstraints="NO" id="T1b-O0-TcH">
+                                <rect key="frame" x="266" y="559" width="238" height="114"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="La Camioneta" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uya-y1-Fmv">
+                                <rect key="frame" x="272" y="677" width="138" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Watched: 3961" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="izb-EW-Rtz">
+                                <rect key="frame" x="424" y="685" width="85" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" red="0.3056381105" green="0.46851549199999998" blue="0.47737136990000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="l1.tiff" translatesAutoresizingMaskIntoConstraints="NO" id="qNd-Qd-8Zu">
+                                <rect key="frame" x="520" y="400" width="241" height="146"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="N_Viaje-agua-blanca-1024x576.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="BP4-Wc-Foi">
+                                <rect key="frame" x="521" y="400" width="238" height="114"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Viaje" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5fJ-ab-gdz">
+                                <rect key="frame" x="527" y="518" width="123" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Watched: 3961" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gq5-ah-lcQ">
+                                <rect key="frame" x="679" y="526" width="85" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" red="0.3056381105" green="0.46851549199999998" blue="0.47737136990000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="l1.tiff" translatesAutoresizingMaskIntoConstraints="NO" id="EpE-P1-7Yc">
+                                <rect key="frame" x="776" y="400" width="241" height="146"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="N_Narco Cultura.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="2Zb-RO-uWZ">
+                                <rect key="frame" x="777" y="400" width="238" height="114"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Narco Cultura" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sXx-dl-bFq">
+                                <rect key="frame" x="783" y="518" width="121" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Watched: 3961" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ws-hv-BlK">
+                                <rect key="frame" x="935" y="526" width="85" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" red="0.3056381105" green="0.46851549199999998" blue="0.47737136990000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="l1.tiff" translatesAutoresizingMaskIntoConstraints="NO" id="w00-nC-Q8s">
+                                <rect key="frame" x="521" y="559" width="241" height="146"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="N_The Dream is Now.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="ekf-pi-Rgq">
+                                <rect key="frame" x="522" y="559" width="238" height="114"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Dream is Now" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dhm-5J-Iuh">
+                                <rect key="frame" x="528" y="677" width="149" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Watched: 3961" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ks-nb-t7L">
+                                <rect key="frame" x="680" y="685" width="85" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" red="0.3056381105" green="0.46851549199999998" blue="0.47737136990000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="l1.tiff" translatesAutoresizingMaskIntoConstraints="NO" id="Fwu-bV-ngU">
+                                <rect key="frame" x="777" y="559" width="241" height="146"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="N_Which Way Home.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Y30-yp-lu9">
+                                <rect key="frame" x="778" y="559" width="238" height="114"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Which Way Home" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kG6-Q8-UbW">
+                                <rect key="frame" x="784" y="677" width="144" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Watched: 3961" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ps5-Re-VnA">
+                                <rect key="frame" x="936" y="685" width="85" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" red="0.3056381105" green="0.46851549199999998" blue="0.47737136990000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Netflix" selectedImage="hbo.tiff" id="cPa-gy-q4n"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="681" y="718"/>
+        </scene>
+        <!--Hulu-->
+        <scene sceneID="7DW-E4-pgj">
+            <objects>
+                <viewController title="Hulu" id="v0q-JY-L5t" customClass="SecondViewController" customModule="BooZooPlayer" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GIm-Vi-1Ak"/>
+                        <viewControllerLayoutGuide type="bottom" id="pEI-tp-h4u"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PVd-Ig-wmL">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Second View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="zUl-Lg-ANS">
+                                <rect key="frame" x="195" y="279" width="209.5" height="41.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by SecondViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cbt-cg-iPk">
+                                <rect key="frame" x="192" y="329" width="215.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cbt-cg-iPk" firstAttribute="centerX" secondItem="zUl-Lg-ANS" secondAttribute="centerX" id="3kF-vV-9m1"/>
+                            <constraint firstItem="cbt-cg-iPk" firstAttribute="top" secondItem="zUl-Lg-ANS" secondAttribute="bottom" constant="8" symbolic="YES" id="Mst-hn-Llp"/>
+                            <constraint firstAttribute="centerY" secondItem="zUl-Lg-ANS" secondAttribute="centerY" id="PKZ-aT-0za"/>
+                            <constraint firstAttribute="centerX" secondItem="zUl-Lg-ANS" secondAttribute="centerX" id="UyC-1G-fT8"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Hulu" selectedImage="hulu_plus.png" id="TlA-Hz-YvV"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pKJ-ER-XdH" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="360"/>
+        </scene>
+        <!--My BooZoo-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController title="My BooZoo" id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" tag="-3" contentMode="bottom" itemPositioning="fill" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="v0q-JY-L5t" kind="relationship" relationship="viewControllers" id="NmA-6Q-V8I"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-51" y="89"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Alice_HBO_Series.png" width="500" height="243"/>
+        <image name="La-Usurpadora-la-usurpadora-8839299-600-480.jpg" width="600" height="480"/>
+        <image name="Las-Juanas.jpg" width="300" height="200"/>
+        <image name="N_City of God.jpeg" width="300" height="134"/>
+        <image name="N_Elite Squad.jpg" width="488" height="200"/>
+        <image name="N_Havana Motor Club.jpg" width="1000" height="534"/>
+        <image name="N_IV.jpg" width="1080" height="500"/>
+        <image name="N_Narco Cultura.jpeg" width="275" height="146"/>
+        <image name="N_The Dream is Now.jpeg" width="160" height="120"/>
+        <image name="N_Viaje-agua-blanca-1024x576.jpg" width="1024" height="460"/>
+        <image name="N_Which Way Home.jpeg" width="300" height="168"/>
+        <image name="N_bele.jpg" width="504" height="240"/>
+        <image name="N_la-camioneta_2.png" width="691" height="361"/>
+        <image name="O-Clone-minhas-telenovelas-23846972-700-400.jpg" width="700" height="400"/>
+        <image name="Play-50.png" width="50" height="50"/>
+        <image name="Popular Topic Filled-50.png" width="30" height="30"/>
+        <image name="barstarter.tiff" width="12" height="50"/>
+        <image name="bigoradabella.jpeg" width="249" height="203"/>
+        <image name="d_nde_est_elisa.jpg" width="1162" height="926"/>
+        <image name="hbo.tiff" width="34" height="38"/>
+        <image name="hulu_plus.png" width="25" height="25"/>
+        <image name="l1.tiff" width="1022" height="742"/>
+        <image name="line.tiff" width="372" height="24"/>
+        <image name="title.tiff" width="234" height="58"/>
+    </resources>
+</document>

@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7AE076A81AF397E50044F266 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE076A71AF397E50044F266 /* AppDelegate.swift */; };
+		7AE076AA1AF397E50044F266 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE076A91AF397E50044F266 /* FirstViewController.swift */; };
+		7AE076AC1AF397E50044F266 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE076AB1AF397E50044F266 /* SecondViewController.swift */; };
+		7AE076AF1AF397E50044F266 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AE076AD1AF397E50044F266 /* Main.storyboard */; };
+		7AE076B11AF397E50044F266 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AE076B01AF397E50044F266 /* Images.xcassets */; };
+		7AE076B41AF397E50044F266 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AE076B21AF397E50044F266 /* LaunchScreen.xib */; };
+		7AE076C01AF397E50044F266 /* BooZooPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE076BF1AF397E50044F266 /* BooZooPlayerTests.swift */; };
+		7AE076D91AF4831C0044F266 /* Alice_HBO_Series.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AE076D31AF4831C0044F266 /* Alice_HBO_Series.png */; };
+		7AE076DA1AF4831C0044F266 /* barstarter.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 7AE076D41AF4831C0044F266 /* barstarter.tiff */; };
+		7AE076DB1AF4831C0044F266 /* boozoo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AE076D51AF4831C0044F266 /* boozoo.png */; };
+		7AE076DC1AF4831C0044F266 /* Jimeoin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7AE076D61AF4831C0044F266 /* Jimeoin.jpg */; };
+		7AE076DD1AF4831C0044F266 /* l1.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 7AE076D71AF4831C0044F266 /* l1.tiff */; };
+		7AE076DE1AF4831C0044F266 /* line.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 7AE076D81AF4831C0044F266 /* line.tiff */; };
+		7AE076E01AF497DF0044F266 /* title.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 7AE076DF1AF497DF0044F266 /* title.tiff */; };
+		7AE076E21AF499E60044F266 /* bigoradabella.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7AE076E11AF499E60044F266 /* bigoradabella.jpeg */; };
+		7AE076E41AF49CA00044F266 /* La-Usurpadora-la-usurpadora-8839299-600-480.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7AE076E31AF49CA00044F266 /* La-Usurpadora-la-usurpadora-8839299-600-480.jpg */; };
+		7AE076E61AF49D3F0044F266 /* Las-Juanas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7AE076E51AF49D3F0044F266 /* Las-Juanas.jpg */; };
+		7AE076E81AF49DAD0044F266 /* O-Clone-minhas-telenovelas-23846972-700-400.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7AE076E71AF49DAD0044F266 /* O-Clone-minhas-telenovelas-23846972-700-400.jpg */; };
+		7AE076EA1AF49E440044F266 /* d_nde_est_elisa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7AE076E91AF49E440044F266 /* d_nde_est_elisa.jpg */; };
+		7AE076EC1AF4B1B10044F266 /* Play-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AE076EB1AF4B1B10044F266 /* Play-50.png */; };
+		7AE076EE1AF4B3F30044F266 /* Sample.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 7AE076ED1AF4B3F30044F266 /* Sample.m4v */; };
+		7AE076F01AF4B8690044F266 /* cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7AE076EF1AF4B8680044F266 /* cover.jpg */; };
+		7AE076F21AF4B92E0044F266 /* hulu_plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AE076F11AF4B92E0044F266 /* hulu_plus.png */; };
+		7AE076F41AF4BA840044F266 /* Popular Topic-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AE076F31AF4BA840044F266 /* Popular Topic-50.png */; };
+		7AE076F61AF4BB340044F266 /* Popular Topic Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AE076F51AF4BB340044F266 /* Popular Topic Filled-50.png */; };
+		7AE076F81AF4BD790044F266 /* L2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7AE076F71AF4BD790044F266 /* L2.mp4 */; };
+		7AE076FA1AF4BFB60044F266 /* netflix-3-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AE076F91AF4BFB60044F266 /* netflix-3-icon.png */; };
+		7AE076FC1AF4BFFB0044F266 /* L1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7AE076FB1AF4BFFB0044F266 /* L1.mp4 */; };
+		7AE076FE1AF4C0F80044F266 /* HBO-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AE076FD1AF4C0F80044F266 /* HBO-icon.png */; };
+		7AE077001AF4C1800044F266 /* hbo.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 7AE076FF1AF4C1800044F266 /* hbo.tiff */; };
+		7AE0770F1AF4ED530044F266 /* dvd+novela+o+clone+completo+de+r+180+00+por+r+120+00+cachoeiro+de+itapemirim+es+brasil__25E10A_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7AE077011AF4ED530044F266 /* dvd+novela+o+clone+completo+de+r+180+00+por+r+120+00+cachoeiro+de+itapemirim+es+brasil__25E10A_1.jpg */; };
+		7AE077101AF4ED530044F266 /* LaUsurpadora.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7AE077021AF4ED530044F266 /* LaUsurpadora.jpg */; };
+		7AE077111AF4ED530044F266 /* N_City of God.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7AE077031AF4ED530044F266 /* N_City of God.jpeg */; };
+		7AE077121AF4ED530044F266 /* N_Elite Squad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7AE077041AF4ED530044F266 /* N_Elite Squad.jpg */; };
+		7AE077131AF4ED530044F266 /* N_Elite Squad2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7AE077051AF4ED530044F266 /* N_Elite Squad2.jpeg */; };
+		7AE077141AF4ED530044F266 /* N_Havana Motor Club.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7AE077061AF4ED530044F266 /* N_Havana Motor Club.jpg */; };
+		7AE077151AF4ED530044F266 /* N_Innocent_Voices.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7AE077071AF4ED530044F266 /* N_Innocent_Voices.jpeg */; };
+		7AE077161AF4ED530044F266 /* N_La_Camioneta.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7AE077081AF4ED530044F266 /* N_La_Camioneta.jpeg */; };
+		7AE077171AF4ED530044F266 /* N_Narco Cultura.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7AE077091AF4ED530044F266 /* N_Narco Cultura.jpeg */; };
+		7AE077181AF4ED530044F266 /* N_Once in a Lifetime- The Extraordinary Story of the New York Cosmos.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7AE0770A1AF4ED530044F266 /* N_Once in a Lifetime- The Extraordinary Story of the New York Cosmos.jpeg */; };
+		7AE077191AF4ED530044F266 /* N_The Dream is Now.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7AE0770B1AF4ED530044F266 /* N_The Dream is Now.jpeg */; };
+		7AE0771A1AF4ED530044F266 /* N_Viaje-agua-blanca-1024x576.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7AE0770C1AF4ED530044F266 /* N_Viaje-agua-blanca-1024x576.jpg */; };
+		7AE0771B1AF4ED530044F266 /* N_Viaje.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7AE0770D1AF4ED530044F266 /* N_Viaje.jpeg */; };
+		7AE0771C1AF4ED530044F266 /* N_Which Way Home.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7AE0770E1AF4ED530044F266 /* N_Which Way Home.jpeg */; };
+		7AE0771E1AF4F7C80044F266 /* N_la-camioneta_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AE0771D1AF4F7C80044F266 /* N_la-camioneta_2.png */; };
+		7AE077201AF4F9690044F266 /* N_bele.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7AE0771F1AF4F9690044F266 /* N_bele.jpg */; };
+		7AE077231AF4FB4F0044F266 /* T1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7AE077211AF4FB4F0044F266 /* T1.mp4 */; };
+		7AE077241AF4FB4F0044F266 /* T2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7AE077221AF4FB4F0044F266 /* T2.mp4 */; };
+		7AE077261AF4FC770044F266 /* N_IV.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7AE077251AF4FC770044F266 /* N_IV.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7AE076BA1AF397E50044F266 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AE0769A1AF397E50044F266 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AE076A11AF397E50044F266;
+			remoteInfo = BooZooPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7AE076A21AF397E50044F266 /* BooZooPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BooZooPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AE076A61AF397E50044F266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AE076A71AF397E50044F266 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7AE076A91AF397E50044F266 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		7AE076AB1AF397E50044F266 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		7AE076AE1AF397E50044F266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7AE076B01AF397E50044F266 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7AE076B31AF397E50044F266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7AE076B91AF397E50044F266 /* BooZooPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BooZooPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AE076BE1AF397E50044F266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AE076BF1AF397E50044F266 /* BooZooPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooZooPlayerTests.swift; sourceTree = "<group>"; };
+		7AE076D31AF4831C0044F266 /* Alice_HBO_Series.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Alice_HBO_Series.png; path = Images.xcassets/Alice_HBO_Series.png; sourceTree = "<group>"; };
+		7AE076D41AF4831C0044F266 /* barstarter.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = barstarter.tiff; path = Images.xcassets/barstarter.tiff; sourceTree = "<group>"; };
+		7AE076D51AF4831C0044F266 /* boozoo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boozoo.png; path = Images.xcassets/boozoo.png; sourceTree = "<group>"; };
+		7AE076D61AF4831C0044F266 /* Jimeoin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Jimeoin.jpg; path = Images.xcassets/Jimeoin.jpg; sourceTree = "<group>"; };
+		7AE076D71AF4831C0044F266 /* l1.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = l1.tiff; path = Images.xcassets/l1.tiff; sourceTree = "<group>"; };
+		7AE076D81AF4831C0044F266 /* line.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = line.tiff; path = Images.xcassets/line.tiff; sourceTree = "<group>"; };
+		7AE076DF1AF497DF0044F266 /* title.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = title.tiff; path = Images.xcassets/title.tiff; sourceTree = "<group>"; };
+		7AE076E11AF499E60044F266 /* bigoradabella.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bigoradabella.jpeg; path = Images.xcassets/bigoradabella.jpeg; sourceTree = "<group>"; };
+		7AE076E31AF49CA00044F266 /* La-Usurpadora-la-usurpadora-8839299-600-480.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "La-Usurpadora-la-usurpadora-8839299-600-480.jpg"; path = "Images.xcassets/La-Usurpadora-la-usurpadora-8839299-600-480.jpg"; sourceTree = "<group>"; };
+		7AE076E51AF49D3F0044F266 /* Las-Juanas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Las-Juanas.jpg"; path = "Images.xcassets/Las-Juanas.jpg"; sourceTree = "<group>"; };
+		7AE076E71AF49DAD0044F266 /* O-Clone-minhas-telenovelas-23846972-700-400.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "O-Clone-minhas-telenovelas-23846972-700-400.jpg"; path = "Images.xcassets/O-Clone-minhas-telenovelas-23846972-700-400.jpg"; sourceTree = "<group>"; };
+		7AE076E91AF49E440044F266 /* d_nde_est_elisa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = d_nde_est_elisa.jpg; path = Images.xcassets/d_nde_est_elisa.jpg; sourceTree = "<group>"; };
+		7AE076EB1AF4B1B10044F266 /* Play-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Play-50.png"; path = "Images.xcassets/Play-50.png"; sourceTree = "<group>"; };
+		7AE076ED1AF4B3F30044F266 /* Sample.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; name = Sample.m4v; path = videos/Sample.m4v; sourceTree = "<group>"; };
+		7AE076EF1AF4B8680044F266 /* cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cover.jpg; path = Images.xcassets/cover.jpg; sourceTree = "<group>"; };
+		7AE076F11AF4B92E0044F266 /* hulu_plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hulu_plus.png; path = Images.xcassets/hulu_plus.png; sourceTree = "<group>"; };
+		7AE076F31AF4BA840044F266 /* Popular Topic-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Popular Topic-50.png"; path = "Images.xcassets/Popular Topic-50.png"; sourceTree = "<group>"; };
+		7AE076F51AF4BB340044F266 /* Popular Topic Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Popular Topic Filled-50.png"; path = "Images.xcassets/Popular Topic Filled-50.png"; sourceTree = "<group>"; };
+		7AE076F71AF4BD790044F266 /* L2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = L2.mp4; path = videos/L2.mp4; sourceTree = "<group>"; };
+		7AE076F91AF4BFB60044F266 /* netflix-3-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "netflix-3-icon.png"; path = "Images.xcassets/netflix-3-icon.png"; sourceTree = "<group>"; };
+		7AE076FB1AF4BFFB0044F266 /* L1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = L1.mp4; path = videos/L1.mp4; sourceTree = "<group>"; };
+		7AE076FD1AF4C0F80044F266 /* HBO-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "HBO-icon.png"; path = "Images.xcassets/HBO-icon.png"; sourceTree = "<group>"; };
+		7AE076FF1AF4C1800044F266 /* hbo.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = hbo.tiff; path = Images.xcassets/hbo.tiff; sourceTree = "<group>"; };
+		7AE077011AF4ED530044F266 /* dvd+novela+o+clone+completo+de+r+180+00+por+r+120+00+cachoeiro+de+itapemirim+es+brasil__25E10A_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "dvd+novela+o+clone+completo+de+r+180+00+por+r+120+00+cachoeiro+de+itapemirim+es+brasil__25E10A_1.jpg"; path = "Images.xcassets/dvd+novela+o+clone+completo+de+r+180+00+por+r+120+00+cachoeiro+de+itapemirim+es+brasil__25E10A_1.jpg"; sourceTree = "<group>"; };
+		7AE077021AF4ED530044F266 /* LaUsurpadora.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = LaUsurpadora.jpg; path = Images.xcassets/LaUsurpadora.jpg; sourceTree = "<group>"; };
+		7AE077031AF4ED530044F266 /* N_City of God.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "N_City of God.jpeg"; path = "Images.xcassets/N_City of God.jpeg"; sourceTree = "<group>"; };
+		7AE077041AF4ED530044F266 /* N_Elite Squad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "N_Elite Squad.jpg"; path = "Images.xcassets/N_Elite Squad.jpg"; sourceTree = "<group>"; };
+		7AE077051AF4ED530044F266 /* N_Elite Squad2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "N_Elite Squad2.jpeg"; path = "Images.xcassets/N_Elite Squad2.jpeg"; sourceTree = "<group>"; };
+		7AE077061AF4ED530044F266 /* N_Havana Motor Club.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "N_Havana Motor Club.jpg"; path = "Images.xcassets/N_Havana Motor Club.jpg"; sourceTree = "<group>"; };
+		7AE077071AF4ED530044F266 /* N_Innocent_Voices.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = N_Innocent_Voices.jpeg; path = Images.xcassets/N_Innocent_Voices.jpeg; sourceTree = "<group>"; };
+		7AE077081AF4ED530044F266 /* N_La_Camioneta.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = N_La_Camioneta.jpeg; path = Images.xcassets/N_La_Camioneta.jpeg; sourceTree = "<group>"; };
+		7AE077091AF4ED530044F266 /* N_Narco Cultura.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "N_Narco Cultura.jpeg"; path = "Images.xcassets/N_Narco Cultura.jpeg"; sourceTree = "<group>"; };
+		7AE0770A1AF4ED530044F266 /* N_Once in a Lifetime- The Extraordinary Story of the New York Cosmos.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "N_Once in a Lifetime- The Extraordinary Story of the New York Cosmos.jpeg"; path = "Images.xcassets/N_Once in a Lifetime- The Extraordinary Story of the New York Cosmos.jpeg"; sourceTree = "<group>"; };
+		7AE0770B1AF4ED530044F266 /* N_The Dream is Now.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "N_The Dream is Now.jpeg"; path = "Images.xcassets/N_The Dream is Now.jpeg"; sourceTree = "<group>"; };
+		7AE0770C1AF4ED530044F266 /* N_Viaje-agua-blanca-1024x576.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "N_Viaje-agua-blanca-1024x576.jpg"; path = "Images.xcassets/N_Viaje-agua-blanca-1024x576.jpg"; sourceTree = "<group>"; };
+		7AE0770D1AF4ED530044F266 /* N_Viaje.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = N_Viaje.jpeg; path = Images.xcassets/N_Viaje.jpeg; sourceTree = "<group>"; };
+		7AE0770E1AF4ED530044F266 /* N_Which Way Home.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "N_Which Way Home.jpeg"; path = "Images.xcassets/N_Which Way Home.jpeg"; sourceTree = "<group>"; };
+		7AE0771D1AF4F7C80044F266 /* N_la-camioneta_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "N_la-camioneta_2.png"; path = "Images.xcassets/N_la-camioneta_2.png"; sourceTree = "<group>"; };
+		7AE0771F1AF4F9690044F266 /* N_bele.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = N_bele.jpg; path = Images.xcassets/N_bele.jpg; sourceTree = "<group>"; };
+		7AE077211AF4FB4F0044F266 /* T1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = T1.mp4; path = videos/T1.mp4; sourceTree = "<group>"; };
+		7AE077221AF4FB4F0044F266 /* T2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = T2.mp4; path = videos/T2.mp4; sourceTree = "<group>"; };
+		7AE077251AF4FC770044F266 /* N_IV.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = N_IV.jpg; path = Images.xcassets/N_IV.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AE0769F1AF397E50044F266 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AE076B61AF397E50044F266 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7AE076991AF397E50044F266 = {
+			isa = PBXGroup;
+			children = (
+				7AE076A41AF397E50044F266 /* BooZooPlayer */,
+				7AE076BC1AF397E50044F266 /* BooZooPlayerTests */,
+				7AE076A31AF397E50044F266 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7AE076A31AF397E50044F266 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AE076A21AF397E50044F266 /* BooZooPlayer.app */,
+				7AE076B91AF397E50044F266 /* BooZooPlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AE076A41AF397E50044F266 /* BooZooPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				7AE076A71AF397E50044F266 /* AppDelegate.swift */,
+				7AE076A91AF397E50044F266 /* FirstViewController.swift */,
+				7AE076AB1AF397E50044F266 /* SecondViewController.swift */,
+				7AE076AD1AF397E50044F266 /* Main.storyboard */,
+				7AE076B01AF397E50044F266 /* Images.xcassets */,
+				7AE076B21AF397E50044F266 /* LaunchScreen.xib */,
+				7AE076A51AF397E50044F266 /* Supporting Files */,
+			);
+			path = BooZooPlayer;
+			sourceTree = "<group>";
+		};
+		7AE076A51AF397E50044F266 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AE077251AF4FC770044F266 /* N_IV.jpg */,
+				7AE077211AF4FB4F0044F266 /* T1.mp4 */,
+				7AE077221AF4FB4F0044F266 /* T2.mp4 */,
+				7AE0771F1AF4F9690044F266 /* N_bele.jpg */,
+				7AE0771D1AF4F7C80044F266 /* N_la-camioneta_2.png */,
+				7AE077011AF4ED530044F266 /* dvd+novela+o+clone+completo+de+r+180+00+por+r+120+00+cachoeiro+de+itapemirim+es+brasil__25E10A_1.jpg */,
+				7AE077021AF4ED530044F266 /* LaUsurpadora.jpg */,
+				7AE077031AF4ED530044F266 /* N_City of God.jpeg */,
+				7AE077041AF4ED530044F266 /* N_Elite Squad.jpg */,
+				7AE077051AF4ED530044F266 /* N_Elite Squad2.jpeg */,
+				7AE077061AF4ED530044F266 /* N_Havana Motor Club.jpg */,
+				7AE077071AF4ED530044F266 /* N_Innocent_Voices.jpeg */,
+				7AE077081AF4ED530044F266 /* N_La_Camioneta.jpeg */,
+				7AE077091AF4ED530044F266 /* N_Narco Cultura.jpeg */,
+				7AE0770A1AF4ED530044F266 /* N_Once in a Lifetime- The Extraordinary Story of the New York Cosmos.jpeg */,
+				7AE0770B1AF4ED530044F266 /* N_The Dream is Now.jpeg */,
+				7AE0770C1AF4ED530044F266 /* N_Viaje-agua-blanca-1024x576.jpg */,
+				7AE0770D1AF4ED530044F266 /* N_Viaje.jpeg */,
+				7AE0770E1AF4ED530044F266 /* N_Which Way Home.jpeg */,
+				7AE076FF1AF4C1800044F266 /* hbo.tiff */,
+				7AE076FD1AF4C0F80044F266 /* HBO-icon.png */,
+				7AE076FB1AF4BFFB0044F266 /* L1.mp4 */,
+				7AE076F91AF4BFB60044F266 /* netflix-3-icon.png */,
+				7AE076F71AF4BD790044F266 /* L2.mp4 */,
+				7AE076F51AF4BB340044F266 /* Popular Topic Filled-50.png */,
+				7AE076F31AF4BA840044F266 /* Popular Topic-50.png */,
+				7AE076F11AF4B92E0044F266 /* hulu_plus.png */,
+				7AE076EF1AF4B8680044F266 /* cover.jpg */,
+				7AE076EB1AF4B1B10044F266 /* Play-50.png */,
+				7AE076E91AF49E440044F266 /* d_nde_est_elisa.jpg */,
+				7AE076E71AF49DAD0044F266 /* O-Clone-minhas-telenovelas-23846972-700-400.jpg */,
+				7AE076E51AF49D3F0044F266 /* Las-Juanas.jpg */,
+				7AE076E31AF49CA00044F266 /* La-Usurpadora-la-usurpadora-8839299-600-480.jpg */,
+				7AE076ED1AF4B3F30044F266 /* Sample.m4v */,
+				7AE076E11AF499E60044F266 /* bigoradabella.jpeg */,
+				7AE076DF1AF497DF0044F266 /* title.tiff */,
+				7AE076D31AF4831C0044F266 /* Alice_HBO_Series.png */,
+				7AE076D41AF4831C0044F266 /* barstarter.tiff */,
+				7AE076D51AF4831C0044F266 /* boozoo.png */,
+				7AE076D61AF4831C0044F266 /* Jimeoin.jpg */,
+				7AE076D71AF4831C0044F266 /* l1.tiff */,
+				7AE076D81AF4831C0044F266 /* line.tiff */,
+				7AE076A61AF397E50044F266 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7AE076BC1AF397E50044F266 /* BooZooPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7AE076BF1AF397E50044F266 /* BooZooPlayerTests.swift */,
+				7AE076BD1AF397E50044F266 /* Supporting Files */,
+			);
+			path = BooZooPlayerTests;
+			sourceTree = "<group>";
+		};
+		7AE076BD1AF397E50044F266 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AE076BE1AF397E50044F266 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AE076A11AF397E50044F266 /* BooZooPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AE076C31AF397E50044F266 /* Build configuration list for PBXNativeTarget "BooZooPlayer" */;
+			buildPhases = (
+				7AE0769E1AF397E50044F266 /* Sources */,
+				7AE0769F1AF397E50044F266 /* Frameworks */,
+				7AE076A01AF397E50044F266 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BooZooPlayer;
+			productName = BooZooPlayer;
+			productReference = 7AE076A21AF397E50044F266 /* BooZooPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7AE076B81AF397E50044F266 /* BooZooPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AE076C61AF397E50044F266 /* Build configuration list for PBXNativeTarget "BooZooPlayerTests" */;
+			buildPhases = (
+				7AE076B51AF397E50044F266 /* Sources */,
+				7AE076B61AF397E50044F266 /* Frameworks */,
+				7AE076B71AF397E50044F266 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AE076BB1AF397E50044F266 /* PBXTargetDependency */,
+			);
+			name = BooZooPlayerTests;
+			productName = BooZooPlayerTests;
+			productReference = 7AE076B91AF397E50044F266 /* BooZooPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AE0769A1AF397E50044F266 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = BooZoo;
+				TargetAttributes = {
+					7AE076A11AF397E50044F266 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					7AE076B81AF397E50044F266 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 7AE076A11AF397E50044F266;
+					};
+				};
+			};
+			buildConfigurationList = 7AE0769D1AF397E50044F266 /* Build configuration list for PBXProject "BooZooPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AE076991AF397E50044F266;
+			productRefGroup = 7AE076A31AF397E50044F266 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AE076A11AF397E50044F266 /* BooZooPlayer */,
+				7AE076B81AF397E50044F266 /* BooZooPlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AE076A01AF397E50044F266 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AE076E41AF49CA00044F266 /* La-Usurpadora-la-usurpadora-8839299-600-480.jpg in Resources */,
+				7AE076F61AF4BB340044F266 /* Popular Topic Filled-50.png in Resources */,
+				7AE077261AF4FC770044F266 /* N_IV.jpg in Resources */,
+				7AE076EA1AF49E440044F266 /* d_nde_est_elisa.jpg in Resources */,
+				7AE077151AF4ED530044F266 /* N_Innocent_Voices.jpeg in Resources */,
+				7AE0771A1AF4ED530044F266 /* N_Viaje-agua-blanca-1024x576.jpg in Resources */,
+				7AE076DA1AF4831C0044F266 /* barstarter.tiff in Resources */,
+				7AE077121AF4ED530044F266 /* N_Elite Squad.jpg in Resources */,
+				7AE076E21AF499E60044F266 /* bigoradabella.jpeg in Resources */,
+				7AE077111AF4ED530044F266 /* N_City of God.jpeg in Resources */,
+				7AE076AF1AF397E50044F266 /* Main.storyboard in Resources */,
+				7AE076DE1AF4831C0044F266 /* line.tiff in Resources */,
+				7AE077181AF4ED530044F266 /* N_Once in a Lifetime- The Extraordinary Story of the New York Cosmos.jpeg in Resources */,
+				7AE076EE1AF4B3F30044F266 /* Sample.m4v in Resources */,
+				7AE076F41AF4BA840044F266 /* Popular Topic-50.png in Resources */,
+				7AE077201AF4F9690044F266 /* N_bele.jpg in Resources */,
+				7AE076EC1AF4B1B10044F266 /* Play-50.png in Resources */,
+				7AE0771E1AF4F7C80044F266 /* N_la-camioneta_2.png in Resources */,
+				7AE076E01AF497DF0044F266 /* title.tiff in Resources */,
+				7AE076F01AF4B8690044F266 /* cover.jpg in Resources */,
+				7AE076E81AF49DAD0044F266 /* O-Clone-minhas-telenovelas-23846972-700-400.jpg in Resources */,
+				7AE076B41AF397E50044F266 /* LaunchScreen.xib in Resources */,
+				7AE0771C1AF4ED530044F266 /* N_Which Way Home.jpeg in Resources */,
+				7AE077101AF4ED530044F266 /* LaUsurpadora.jpg in Resources */,
+				7AE076DD1AF4831C0044F266 /* l1.tiff in Resources */,
+				7AE076F21AF4B92E0044F266 /* hulu_plus.png in Resources */,
+				7AE077231AF4FB4F0044F266 /* T1.mp4 in Resources */,
+				7AE076E61AF49D3F0044F266 /* Las-Juanas.jpg in Resources */,
+				7AE0771B1AF4ED530044F266 /* N_Viaje.jpeg in Resources */,
+				7AE076F81AF4BD790044F266 /* L2.mp4 in Resources */,
+				7AE077131AF4ED530044F266 /* N_Elite Squad2.jpeg in Resources */,
+				7AE076FE1AF4C0F80044F266 /* HBO-icon.png in Resources */,
+				7AE077241AF4FB4F0044F266 /* T2.mp4 in Resources */,
+				7AE076FC1AF4BFFB0044F266 /* L1.mp4 in Resources */,
+				7AE077161AF4ED530044F266 /* N_La_Camioneta.jpeg in Resources */,
+				7AE077191AF4ED530044F266 /* N_The Dream is Now.jpeg in Resources */,
+				7AE076DB1AF4831C0044F266 /* boozoo.png in Resources */,
+				7AE077141AF4ED530044F266 /* N_Havana Motor Club.jpg in Resources */,
+				7AE076DC1AF4831C0044F266 /* Jimeoin.jpg in Resources */,
+				7AE077171AF4ED530044F266 /* N_Narco Cultura.jpeg in Resources */,
+				7AE077001AF4C1800044F266 /* hbo.tiff in Resources */,
+				7AE076B11AF397E50044F266 /* Images.xcassets in Resources */,
+				7AE0770F1AF4ED530044F266 /* dvd+novela+o+clone+completo+de+r+180+00+por+r+120+00+cachoeiro+de+itapemirim+es+brasil__25E10A_1.jpg in Resources */,
+				7AE076FA1AF4BFB60044F266 /* netflix-3-icon.png in Resources */,
+				7AE076D91AF4831C0044F266 /* Alice_HBO_Series.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AE076B71AF397E50044F266 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AE0769E1AF397E50044F266 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AE076AC1AF397E50044F266 /* SecondViewController.swift in Sources */,
+				7AE076A81AF397E50044F266 /* AppDelegate.swift in Sources */,
+				7AE076AA1AF397E50044F266 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AE076B51AF397E50044F266 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AE076C01AF397E50044F266 /* BooZooPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7AE076BB1AF397E50044F266 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AE076A11AF397E50044F266 /* BooZooPlayer */;
+			targetProxy = 7AE076BA1AF397E50044F266 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7AE076AD1AF397E50044F266 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AE076AE1AF397E50044F266 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7AE076B21AF397E50044F266 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AE076B31AF397E50044F266 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7AE076C11AF397E50044F266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		7AE076C21AF397E50044F266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AE076C41AF397E50044F266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BooZooPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7AE076C51AF397E50044F266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BooZooPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7AE076C71AF397E50044F266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BooZooPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BooZooPlayer.app/BooZooPlayer";
+			};
+			name = Debug;
+		};
+		7AE076C81AF397E50044F266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BooZooPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BooZooPlayer.app/BooZooPlayer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AE0769D1AF397E50044F266 /* Build configuration list for PBXProject "BooZooPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AE076C11AF397E50044F266 /* Debug */,
+				7AE076C21AF397E50044F266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AE076C31AF397E50044F266 /* Build configuration list for PBXNativeTarget "BooZooPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AE076C41AF397E50044F266 /* Debug */,
+				7AE076C51AF397E50044F266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7AE076C61AF397E50044F266 /* Build configuration list for PBXNativeTarget "BooZooPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AE076C71AF397E50044F266 /* Debug */,
+				7AE076C81AF397E50044F266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7AE0769A1AF397E50044F266 /* Project object */;
+}
