@@ -14,13 +14,13 @@ class SecondViewController: UIViewController {
 
     @IBAction func Top1PlayerStart(sender: AnyObject) {
         println("start to play top1 !")
-        startPlayingVideo("T1", extention: "mp4");
+        startPlayingVideo("T1");
     }
     
     
     @IBAction func Top2PlayerStart(sender: AnyObject) {
         println("start to play top2 !")
-        startPlayingVideo("T2", extention: "mp4");
+        startPlayingVideo("T2");
     }
     
     override func viewDidLoad() {
@@ -37,33 +37,6 @@ class SecondViewController: UIViewController {
         
         println("Video finished playing")
         
-        /* Find out what the reason was for the player to stop */
-        let reason =
-        notification.userInfo![MPMoviePlayerPlaybackDidFinishReasonUserInfoKey]
-            as NSNumber?
-        
-        if let theReason = reason{
-            
-            let reasonValue = MPMovieFinishReason(rawValue: theReason.integerValue)
-            
-            switch reasonValue!{
-            case .PlaybackEnded:
-                /* The movie ended normally */
-                println("Playback Ended")
-            case .PlaybackError:
-                /* An error happened and the movie ended */
-                println("Error happened")
-            case .UserExited:
-                /* The user exited the player */
-                println("User exited")
-            default:
-                println("Another event happened")
-            }
-            
-            println("Finish Reason = \(theReason)")
-            stopPlayingVideo()
-        }
-        
     }
     
     func stopPlayingVideo() {
@@ -76,13 +49,13 @@ class SecondViewController: UIViewController {
         
     }
     
-    func startPlayingVideo(name: NSString, extention: NSString){
+    func startPlayingVideo(name: NSString){
         
         /* First let's construct the URL of the file in our application bundle
         that needs to get played by the movie player */
         let mainBundle = NSBundle.mainBundle()
         
-        let url = mainBundle.URLForResource(name, withExtension: extention)
+        let url = mainBundle.URLForResource(name, withExtension: "mp4")
         
         /* If we have already created a movie player before,
         let's try to stop it */
